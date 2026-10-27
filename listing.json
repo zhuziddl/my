@@ -1,0 +1,10 @@
+{
+  "npm": "dsh-napcat-deploy",
+  "repo": "zhuziddl/my",
+  "version": "0.1.0",
+  "category": "tools",
+  "description": {
+    "en": "Windows NapCat deployment guide and read-only loopback port checks for DSH. Includes a user-initiated administrator launcher; no credentials or QQ binaries bundled.",
+    "zh": "Windows NapCat部署指南与本机端口只读检查，附用户手动运行的管理员启动入口；不包含凭证或QQ二进制。"
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: napcat-deploy
+      name: dsh-napcat-deploy

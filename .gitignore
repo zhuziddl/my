@@ -1,0 +1,12 @@
+config.local.json
+runtime/
+*.log
+.env
+.env.*
+node_modules/
+sessions/
+logs/
+*.zip
+*.exe
+*.dll
+*.tgz
