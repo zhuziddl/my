@@ -13,7 +13,7 @@
           "version": "0.1.0",
           "publishTimestamp": 1793086327,
           "engines": { "dsh": "^0.2.1-rc.2" },
-          "source": { "type": "git", "url": "https://github.com/zhuziddl/my", "commit": "06cffa5e4dd2e85d90f4426e3e934855ee8de3a9" }
+          "source": { "type": "git", "url": "https://github.com/zhuziddl/my", "commit": "1bfd92fa64f003012c05e7c3c6d17de987f25494" }
         }
       ]
     }
