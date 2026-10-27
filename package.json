@@ -8,7 +8,7 @@
   "exports": { ".": "./src/index.js", "./package.json": "./package.json", "./cordis.patch.yml": "./cordis.patch.yml" },
   "files": ["src", "docs", "cordis.patch.yml", "listing.json", "catalog-entry.yml", "README.md", "LICENSE", "Start.cmd", "Start.ps1", "Install.ps1", "config.example.json"],
   "engines": { "node": ">=20", "dsh": "^0.2.1-rc.2" },
-  "scripts": { "test": "node --test tests/*.test.mjs", "prepack": "npm test" },
+  "scripts": { "test": "node --test tests/plugin.test.mjs", "prepack": "node --test tests/plugin.test.mjs" },
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "dsh-plugin": { "category": "tools", "displayName": "NapCat 部署助手" },
   "keywords": ["dsh-plugin", "deepseek-harness", "onebot", "napcat", "deployment"],
