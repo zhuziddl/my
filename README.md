@@ -10,7 +10,13 @@ dsh plugin --profile desktop add github:zhuziddl/my
 
 重载对应profile后，插件在有tools服务的作用域提供 `napcat_deploy_check` 工具：`mode=guide`返回指南，`mode=status`只检查本机默认3001/6099端口。若所选Agent预设隔离根作用域工具，需要在该预设的plugins中挂载 `dsh-napcat-deploy` 才能看到工具。本插件没有自动启动、提权或发消息行为。
 
-发布包包含DSH bundle清单与目录条目；GitHub公开不等于已经在插件市场收录，npm包名也尚未发布。目录收录可使用仓库链接及catalog-entry.yml提交，规则见[DSH插件市场文档](https://deepseek-harness.github.io/deepseek-harness/en/guide/plugin-market)。
+也可按[DSH插件市场文档](https://deepseek-harness.github.io/deepseek-harness/en/guide/plugin-market)启用Custom plugin markets，在“插件 → Discover → 添加索引源”填写：
+
+```text
+https://raw.githubusercontent.com/zhuziddl/my/main/index.json
+```
+
+这是本仓库提供的独立索引，版本固定到Git提交；不是社区市场已审核收录的声明。包名尚未发布到npm；无需npm发布即可从GitHub安装。若需要社区市场收录，可使用仓库链接及catalog-entry.yml提交。
 
 ## 已验证范围
 

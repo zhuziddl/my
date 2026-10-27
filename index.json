@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "title": { "en": "NapCat Deployment", "zh": "NapCat 部署插件" },
+  "plugins": [
+    {
+      "name": "dsh-napcat-deploy",
+      "title": { "en": "NapCat Deployment Helper", "zh": "NapCat 部署助手" },
+      "description": { "en": "Deployment guide and read-only loopback diagnostics.", "zh": "部署指南与本机端口只读检查，附手动管理员启动脚本。" },
+      "homepage": "https://github.com/zhuziddl/my#readme",
+      "repository": { "url": "https://github.com/zhuziddl/my" },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793086327,
+          "engines": { "dsh": "^0.2.1-rc.2" },
+          "source": { "type": "git", "url": "https://github.com/zhuziddl/my", "commit": "06cffa5e4dd2e85d90f4426e3e934855ee8de3a9" }
+        }
+      ]
+    }
+  ]
+}
